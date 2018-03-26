@@ -5,7 +5,7 @@ Welcome to DraftServices. This is a server that will ease your search of finding
 The server was coded in java with the jax-rs web service api.
 
 Data is also kept persistent by the use of a mongo database. In order for the server to communicate with your database please have a mongo
-database up and ready and provide the database connection information on the properties file located in /src/main/java/resources. There you would just
+database up and ready and provide the database connection information on the properties file located in /src/main/resources. There you would just
 provide the hostname and port.
 
 This was tested and hosted by using a tomcat servet container.
