@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DraftPlayersServices:war exploded">
+    <output-path>$PROJECT_DIR$/target/DraftPlayersServices-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DraftPlayersServices" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.18.3" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-jdk14:1.7.25" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.4" />
+          <element id="library" level="project" name="Maven: org.mongojack:mongojack:2.7.0" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver:3.4.2" />
+          <element id="library" level="project" name="Maven: org.mongodb:bson:3.4.2" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-core:3.4.2" />
+          <element id="library" level="project" name="Maven: de.undercouch:bson4jackson:2.7.0" />
+          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0.2" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/DraftPlayersServices-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="DraftPlayersServices/web/Web" />
+    </root>
+  </artifact>
+</component>
